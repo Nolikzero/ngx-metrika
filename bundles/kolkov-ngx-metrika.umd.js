@@ -283,7 +283,7 @@
             { type: core.RendererFactory2 },
             { type: Document, decorators: [{ type: core.Inject, args: [common.DOCUMENT,] }] }
         ]; };
-        /** @nocollapse */ NgxMetrikaService.ngInjectableDef = core.defineInjectable({ factory: function NgxMetrikaService_Factory() { return new NgxMetrikaService(core.ɵɵinject(YM_CONFIG), core.ɵɵinject(router.Router), core.ɵɵinject(core.RendererFactory2), core.ɵɵinject(common.DOCUMENT)); }, token: NgxMetrikaService, providedIn: "root" });
+        /** @nocollapse */ NgxMetrikaService.ngInjectableDef = core.defineInjectable({ factory: function NgxMetrikaService_Factory() { return new NgxMetrikaService(core.inject(YM_CONFIG), core.inject(router.Router), core.inject(core.RendererFactory2), core.inject(common.DOCUMENT)); }, token: NgxMetrikaService, providedIn: "root" });
         return NgxMetrikaService;
     }());
 

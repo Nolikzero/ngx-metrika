@@ -1,4 +1,4 @@
-import { InjectionToken, EventEmitter, Injectable, Inject, RendererFactory2, defineInjectable, ɵɵinject, Directive, Renderer2, ElementRef, Input, NgModule } from '@angular/core';
+import { InjectionToken, EventEmitter, Injectable, Inject, RendererFactory2, defineInjectable, inject, Directive, Renderer2, ElementRef, Input, NgModule } from '@angular/core';
 import { NavigationEnd, Router } from '@angular/router';
 import { filter, tap } from 'rxjs/operators';
 import { BehaviorSubject } from 'rxjs/internal/BehaviorSubject';
@@ -229,7 +229,7 @@ NgxMetrikaService.ctorParameters = () => [
     { type: RendererFactory2 },
     { type: Document, decorators: [{ type: Inject, args: [DOCUMENT,] }] }
 ];
-/** @nocollapse */ NgxMetrikaService.ngInjectableDef = defineInjectable({ factory: function NgxMetrikaService_Factory() { return new NgxMetrikaService(ɵɵinject(YM_CONFIG), ɵɵinject(Router), ɵɵinject(RendererFactory2), ɵɵinject(DOCUMENT)); }, token: NgxMetrikaService, providedIn: "root" });
+/** @nocollapse */ NgxMetrikaService.ngInjectableDef = defineInjectable({ factory: function NgxMetrikaService_Factory() { return new NgxMetrikaService(inject(YM_CONFIG), inject(Router), inject(RendererFactory2), inject(DOCUMENT)); }, token: NgxMetrikaService, providedIn: "root" });
 
 /**
  * @fileoverview added by tsickle

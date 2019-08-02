@@ -226,7 +226,7 @@ NgxMetrikaService.ctorParameters = () => [
     { type: RendererFactory2 },
     { type: Document, decorators: [{ type: Inject, args: [DOCUMENT,] }] }
 ];
-/** @nocollapse */ NgxMetrikaService.ngInjectableDef = i0.defineInjectable({ factory: function NgxMetrikaService_Factory() { return new NgxMetrikaService(i0.ɵɵinject(i1.YM_CONFIG), i0.ɵɵinject(i2.Router), i0.ɵɵinject(i0.RendererFactory2), i0.ɵɵinject(i3.DOCUMENT)); }, token: NgxMetrikaService, providedIn: "root" });
+/** @nocollapse */ NgxMetrikaService.ngInjectableDef = i0.defineInjectable({ factory: function NgxMetrikaService_Factory() { return new NgxMetrikaService(i0.inject(i1.YM_CONFIG), i0.inject(i2.Router), i0.inject(i0.RendererFactory2), i0.inject(i3.DOCUMENT)); }, token: NgxMetrikaService, providedIn: "root" });
 if (false) {
     /** @type {?} */
     NgxMetrikaService.prototype.defaultConfig;
