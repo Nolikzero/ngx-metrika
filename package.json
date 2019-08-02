@@ -1,0 +1,70 @@
+{
+  "_from": "@kolkov/ngx-metrika",
+  "_id": "@kolkov/ngx-metrika@0.5.2",
+  "_inBundle": false,
+  "_integrity": "sha512-EbaJzErzh+3tl3JiSE8DenUcNh+xJsWF9Oo9WJqcUq0OPaltHEWJECHmpFsFzr5D+tbVflfOlk87OfigSayKCA==",
+  "_location": "/@kolkov/ngx-metrika",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "@kolkov/ngx-metrika",
+    "name": "@kolkov/ngx-metrika",
+    "escapedName": "@kolkov%2fngx-metrika",
+    "scope": "@kolkov",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@kolkov/ngx-metrika/-/ngx-metrika-0.5.2.tgz",
+  "_shasum": "447d6eaf116619b310637deff018992da8c2bb45",
+  "_spec": "@kolkov/ngx-metrika",
+  "_where": "/Users/nurlan/Projects/academy/frontend",
+  "author": {
+    "name": "Andrey Kolkov",
+    "email": "a.kolkov@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/kolkov/ngx-metrika/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "tslib": "^1.9.0"
+  },
+  "deprecated": false,
+  "description": "A simple Yandex Mertika (Яндекс Метрика) package for Angular 6+.",
+  "es2015": "fesm2015/kolkov-ngx-metrika.js",
+  "esm2015": "esm2015/kolkov-ngx-metrika.js",
+  "esm5": "esm5/kolkov-ngx-metrika.js",
+  "fesm2015": "fesm2015/kolkov-ngx-metrika.js",
+  "fesm5": "fesm5/kolkov-ngx-metrika.js",
+  "homepage": "https://github.com/kolkov/ngx-metrika#readme",
+  "keywords": [
+    "angular",
+    "yandex metrika",
+    "tag.js",
+    "яндекс метрика"
+  ],
+  "license": "MIT",
+  "main": "bundles/kolkov-ngx-metrika.umd.js",
+  "metadata": "kolkov-ngx-metrika.metadata.json",
+  "module": "fesm5/kolkov-ngx-metrika.js",
+  "name": "@kolkov/ngx-metrika",
+  "peerDependencies": {
+    "@angular/common": ">6.0.0",
+    "@angular/core": ">6.0.0",
+    "@angular/router": ">6.0.0"
+  },
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kolkov/ngx-metrika.git"
+  },
+  "sideEffects": false,
+  "typings": "kolkov-ngx-metrika.d.ts",
+  "version": "0.5.2"
+}
