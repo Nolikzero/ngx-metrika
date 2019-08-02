@@ -7,7 +7,7 @@ A simple Yandex Mertika (Яндекс Метрика) [tag.js](https://yandex.ru
 Install via [npm][npm] package manager
 
 ```
-npm install @kolkov/ngx-metrika --save
+npm install @noliknolik/ngx-metrika --save
 ```
 
 Add the package to your `app.module.ts`.
@@ -15,7 +15,7 @@ Then simple add property `yaCounterId` to the `environment` constant or use inli
 
 ```ts
 import { RouterModule } from '@angular/router';
-import { NgxMetrikaModule } from '@kolkov/ngx-metrika';
+import { NgxMetrikaModule } from '@noliknolik/ngx-metrika';
 
 @NgModule({
   imports: [

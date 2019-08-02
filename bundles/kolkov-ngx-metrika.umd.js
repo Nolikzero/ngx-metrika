@@ -1,6 +1,6 @@
 (function (global, factory) {
     typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('@angular/core'), require('@angular/router'), require('rxjs/operators'), require('rxjs/internal/BehaviorSubject'), require('@angular/common')) :
-    typeof define === 'function' && define.amd ? define('@kolkov/ngx-metrika', ['exports', '@angular/core', '@angular/router', 'rxjs/operators', 'rxjs/internal/BehaviorSubject', '@angular/common'], factory) :
+    typeof define === 'function' && define.amd ? define('@noliknolik/ngx-metrika', ['exports', '@angular/core', '@angular/router', 'rxjs/operators', 'rxjs/internal/BehaviorSubject', '@angular/common'], factory) :
     (global = global || self, factory((global.kolkov = global.kolkov || {}, global.kolkov['ngx-metrika'] = {}), global.ng.core, global.ng.router, global.rxjs.operators, global.rxjs['internal/BehaviorSubject'], global.ng.common));
 }(this, function (exports, core, router, operators, BehaviorSubject, common) { 'use strict';
 
